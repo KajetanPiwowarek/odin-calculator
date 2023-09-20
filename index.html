@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=640" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="index.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section class="container-parent">
+      <div class="container-child">
+        <div class="calculator">
+          <div class="display">
+            <div class="calculator-display">
+              <output class="input" type="text" id="input">0</output>
+              <output class="result" type="text" id="result">&nbsp;</output>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="operators" data-type="operator" id="procent" value="%">%</button>
+            <button class="operators" data-type="operator" id="power" value="^">^</button>
+            <button class="back" data-type="back" id="back">C</button>
+            <button class="clear" data-type="clear" id="clear">AC</button>
+
+            <button class="digits" data-type="number" id="digit-7" value="7">7</button>
+            <button class="digits" data-type="number" id="digit-8" value="8">8</button>
+            <button class="digits" data-type="number" id="digit-9" value="9">9</button>
+            <button class="operators" data-type="operator" id="divide" value="/">÷</button>
+
+            <button class="digits" data-type="number" id="digit-4" value="4">4</button>
+            <button class="digits" data-type="number" id="digit-5" value="5">5</button>
+            <button class="digits" data-type="number" id="digit-6" value="6">6</button>
+            <button class="operators" data-type="operator" id="multiply" value="x">×</button>
+
+            <button class="digits" data-type="number" id="digit-1" value="1">1</button>
+            <button class="digits" data-type="number" id="digit-2" value="2">2</button>
+            <button class="digits" data-type="number" id="digit-3" value="3">3</button>
+            <button class="operators" data-type="operator" id="minus" value="-">-</button>
+
+            <button class="decimal" data-type="decimal" id="decimal" value=".">.</button>
+            <button class="digits" data-type="number" id="digit-0" value="0">0</button>
+            <button class="equals" data-type="equal" id="equals" value="=">=</button>
+            <button class="operators" data-type="operator" id="plus" value="+">+</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
